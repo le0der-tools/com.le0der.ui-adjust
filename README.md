@@ -1,6 +1,6 @@
 # Le0der UI适配工具包
 
-该存储库包括实用各类UI适配工具，旨在简化跨设备和跨平台开发。
+一个轻量的UI适配工具，旨在简化跨设备和跨平台开发中不同分辨率下的UI的适配问题。
 
 该工具已按 Unity Package Manager（UPM）规范封装，可通过 Git 地址直接集成到 Unity 项目中。
 
@@ -74,7 +74,7 @@ https://github.com/le0der-tools/com.le0der.ui-adjust.git
    ├── SamplePanel				(显示界面根节点)
    │   ├── Background   		(整个界面点击和显示遮挡)
    │   ├── Root 				(界面内容显示父节点)
-   |	|	└──	...				(界面具体内容)
+   |   |   └──	...				(界面具体内容)
    ```
 
    ​	示例场景中，`UIAdjustByTarget` 挂载在Root子项上，可以更改不同的分辨率查看适配效果，Root节点下的UI内容始终以最大可显示范围显示。
